@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+.mainBox {
+    border-style: solid;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    border-color: aqua;
+    border-width: 5px;
+}
+
+.display{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: auto;
+    height: 20%;
+    width: 100%;
+    background-color: yellow;
+}
+
