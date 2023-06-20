@@ -1,23 +1,34 @@
 body {
     background-color: black;
 }
-.mainBox {
-    border-style: solid;
-    border-radius: 15px;
+
+#mainBox {
     margin: auto;
-    padding: 10px;
+    background-color: brown;
+    width: 200px; 
     height: 300px;
-    width: 200px;
-    border-color: aqua;
-    border-width: 5px;
 }
 
-.display{
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    margin: auto;
-    height: 20%;
+#display {
+    background-color: rgb(228, 228, 133);
     width: 100%;
-    background-color: yellow;
+    height: 20%;
 }
 
+.row {
+    background-color: yellow;
+    width: 100%;
+    height: 20%;
+    font-size: 0;
+}
+
+.box {
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;    
+    display: inline-block;
+    font-size: 20px;
+
+    text-align: center;
+    outline: solid rgb(0, 0, 0);
+}

@@ -1,2 +1,4 @@
-let ab = eval("(8+7)");
-console.log(ab);
+function callFunc()
+{
+    document.getElementById("display").innerHTML="Clicked"
+}
